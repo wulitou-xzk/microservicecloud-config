@@ -24,7 +24,7 @@ mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.xzk.springcloud.entities
   mapper-locations:
-  - classpath:mybatis/mapper/**/*.xml
+  - classpath:mybatis/mapper/*.xml  
 eureka:
   client: # 客户端注册进eureka服务列表内
     service-url:
@@ -59,7 +59,7 @@ mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.xzk.springcloud.entities
   mapper-locations:
-  - classpath:mybatis/mapper/**/*.xml
+  - classpath:mybatis/mapper/*.xml  
 eureka:
   client: # 客户端注册进eureka服务列表内
     service-url:
